@@ -1,0 +1,34 @@
+div{
+    .profile_information{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+        margin-bottom: 10px; 
+        flex-wrap: nowrap; 
+            .profile_photo{
+                width: 100px;
+                height: 100px;
+            }
+    }
+    
+    .follow_count{
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+        margin-bottom: 10px; 
+        flex-wrap: nowrap; 
+    }
+    .summary{
+        text-align: right;
+        margin-right: 100px;
+    }
+    .post{
+        display: grid;
+        gap: 1px;
+        grid-template-columns: repeat(3, 1fr);
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+}
