@@ -1,34 +1,36 @@
 div{
     .profile_information{
         display: flex;
-        justify-content: space-around; 
-        align-items: center; 
-        margin-bottom: 10px; 
-        flex-wrap: nowrap; 
+        align-items: center;
+        gap: 10px;
+
             .profile_photo{
                 width: 100px;
                 height: 100px;
+                margin-left: auto;
             }
     }
-    
     .follow_count{
         display: flex;
-        justify-content: space-around; 
-        align-items: center; 
-        margin-bottom: 10px; 
-        flex-wrap: nowrap; 
+        align-items: center;
+        align-content: right;
+        align-self: flex-end;
+        gap: 10px;
+        
+        .follow_numbers{
+            margin-left: auto;
+        }
     }
     .summary{
         text-align: right;
-        margin-right: 100px;
     }
     .post{
         display: grid;
-        gap: 1px;
+        gap: 10px;
         grid-template-columns: repeat(3, 1fr);
-        img{
-            width: 300px;
-            height: 300px;
+        .post_image{
+            width: 250px;
+            height: 250px;
         }
     }
 }
