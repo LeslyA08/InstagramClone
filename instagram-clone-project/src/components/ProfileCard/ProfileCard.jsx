@@ -4,11 +4,13 @@ const ProfileCard = (props) => {
     
     return (
         <div>
+            <div className="profile_container">
+             <img src= {props.profile_photo} alt={props.profile_name} className="profile_photo" />
             <div className="profile_information">
-                <img src= {props.profile_photo} alt={props.profile_name} className="profile_photo" />
                 <h2>{props.profile_name}</h2>
-                <button>Follow</button>
-                <button>v</button>
+                <button className="follow_button">Follow</button>
+                <button className="follow_button_2">v</button>
+            </div>
             </div>
             <div className="follow_count">
                 <p className="follow_numbers">{props.num_posts} posts</p>

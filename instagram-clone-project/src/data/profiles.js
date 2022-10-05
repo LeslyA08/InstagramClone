@@ -1,6 +1,6 @@
 const profiles = [
     {
-        "profile_name" : "Garak",
+        "profile_name" : "Garak_the_cat",
         "profile_photo": "https://pets.wilco.org/portals/1/2020/NewFront/augieCircle.png",
         "num_posts" : "300",
         "followers": "10.10m",

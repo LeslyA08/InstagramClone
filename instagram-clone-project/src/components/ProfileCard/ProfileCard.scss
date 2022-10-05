@@ -1,14 +1,33 @@
 div{
+    .profile_container{
+        display: flex;
+    .profile_photo{
+        width: 200px;
+        height: 200px;
+        padding-right: 100px;
+    }
     .profile_information{
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         gap: 10px;
 
-            .profile_photo{
+            .follow_button{
+                background-color: rgb(0, 140, 255);
+                color: white;
                 width: 100px;
-                height: 100px;
-                margin-left: auto;
+                height: 40px;
+                border: none;
+                margin-left: 75px;
             }
+            .follow_button_2{
+                background-color: rgb(0, 140, 255);
+                color: white;
+                width: 40px;
+                height: 40px;
+                border: none;
+            }
+        }
     }
     .follow_count{
         display: flex;
@@ -16,6 +35,8 @@ div{
         align-content: right;
         align-self: flex-end;
         gap: 10px;
+        color: gray;
+        margin-right: 120px;
         
         .follow_numbers{
             margin-left: auto;
